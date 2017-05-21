@@ -1,0 +1,54 @@
+a:hover{ text-decoration:underline; _vertical-align:baseline}
+
+.hd,.pn-hd{ overflow:hidden; *zoom:1}
+.hd .tit,.pn-hd .tit{ float:left; font-size:14px; font-weight:bold}
+.hd .more,.pn-hd .more{ float:right}
+.bd,.pn-bd{ *zoom:1}
+
+.gb-list1 .date{float:right}
+
+.gb-list2{ overflow:hidden; *zoom:1; font-size:0; text-align:center}
+.gb-list2-item{ display:inline-block; *display:inline; *zoom:1; vertical-align:top}
+@media all and (-webkit-min-device-pixel-ratio:0){.gb-list2{letter-spacing:-4px; word-spacing:-4px}
+.gb-list2-item{letter-spacing:normal; word-spacing:normal}}
+.gb-list2-con,.gb-list2-c2,.gb-list2 .txt,.gb-list2 .tit{ display:block; *zoom:1; overflow:hidden; cursor:pointer}
+.gb-list2-con{ margin-left:auto; margin-right:auto}
+*html .gb-list2-con:hover{ direction:ltr}
+.gb-list2-c1{ display:block}
+.gb-list2 .avatar,.gb-list2-c2{ font-size:12px}
+.gb-list2 .txt{ width:98%; margin-left:auto; margin-right:auto; text-overflow:ellipsis}
+.gb-list2 .cover,.gb-list2 .mask{ display:none; overflow:hidden; position:absolute}
+.gb-list2 .cover{ z-index:2}
+.gb-list2 .mask{ z-index:-1; top:0; left:0; width:1000px; height:1000px; background:#000; filter:alpha(opacity:75); opacity:.75}
+:root .gb-list2 .mask{ filter:none \0}
+.gb-list2-con:hover{ text-decoration:none}
+.gb-list2-con:hover .txt{ text-decoration:underline}
+
+.gb-list3 .item{ float:left}
+.gb-list3 .pic{ float:left}
+.gb-list3 .img{ display:block; position:relative}
+.gb-list3 .icon{position:absolute; display:none}
+.gb-list3 .text{ overflow:hidden; zoom:1}
+*html .gb-list3 .img:hover{ direction:ltr}
+.gb-list3 .img:hover .icon{ display:block}
+
+.gb-tab{ *zoom:1}
+.gb-tab-b1,.gb-tab-b2{ position:absolute; display:none; overflow:hidden; cursor:pointer}
+
+.gb-rank{ *zoom:1}
+.gb-rank .item{clear:both;vertical-align:bottom}
+.gb-rank .rank-c1{ float:left}
+.gb-rank .rank-c2,.gb-rank .info{ overflow:hidden; *zoom:1}
+.gb-rank .num{ display:inline;float:left;text-align:center}
+.gb-rank .pic{display:none}
+.gb-rank .info{display:none}
+.gb-rank .title{ overflow:hidden}
+.gb-rank .date{ float:right}
+.gb-rank .title2{ overflow:hidden; width:98%; white-space:nowrap; text-overflow:ellipsis}
+
+.gb-rank .top{overflow:hidden}
+.gb-rank .top .pic{float:left; display:inline; position:relative}
+.gb-rank .top .pic a{ display:block}
+.gb-rank .top .info{ display:block}
+.gb-rank .top .tit{ overflow:hidden}
+.gb-rank .top .title{display:none}
